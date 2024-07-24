@@ -30,7 +30,7 @@ envsubst < "$CWD/www.tmpl.conf" > "/usr/local/etc/php-fpm.d/www.conf"
 
 # 3. PHP default settings (default-php.ini)
 # 3.1 [PHP]
-XMEMORY_LIMIT=512M
+XMEMORY_LIMIT=128M
 XEXPOSE_PHP=On
 # 3.2 [Session]
 XGC_MAXLIFETIME=1440
